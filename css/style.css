@@ -1,0 +1,27 @@
+body{
+  margin: 2rem;
+  font-family: "Times New Roman", serif;
+}
+
+.lined-title{
+  display: flex;      
+  align-items: center;   
+  justify-content: center;
+  gap: 8px;             
+
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: .05em;
+  margin: 2rem 0;
+  padding: 0;    
+  position: relative;  
+}
+
+.lined-title::before,
+.lined-title::after{
+  content: "";
+  flex: 1;           
+  height: 5px;         
+  background: #000;
+}
+
